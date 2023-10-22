@@ -1,0 +1,133 @@
+.list-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .list-table th,
+  .list-table td {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .list-table th {
+    background-color: #282c36;
+    color: #ffffff;
+  }
+  
+  .list-table td .action-buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .list-table td .edit-button,
+  .list-table td .delete-button {
+    background-color: #ff5a5f;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .list-table td .edit-button:hover,
+  .list-table td .delete-button:hover {
+    background-color: #ff3338;
+  }
+  
+  /* EditContactForm.css */
+.edit-form {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.edit-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.edit-form input[type="text"],
+.edit-form input[type="email"] {
+  width: calc(100% - 22px);
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-buttons button {
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-buttons button:hover {
+  background-color: #45a049;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* ListItems.css */
+.list-container {
+  margin-top: 20px;
+}
+
+.list-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.list-table th,
+.list-table td {
+  border: 1px solid #ccc;
+  padding: 15px;
+  text-align: center;
+}
+
+.list-table th {
+  background-color: #282c36;
+  color: #ffffff;
+}
+
+.list-table td .action-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.list-table td .edit-button,
+.list-table td .delete-button {
+  background-color: #ff5a5f;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.list-table td .edit-button:hover,
+.list-table td .delete-button:hover {
+  background-color: #ff3338;
+}
